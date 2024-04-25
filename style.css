@@ -26,9 +26,9 @@ header img {
 
 .topElement-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 3rem;
     height: 10vh;
 }
@@ -57,3 +57,29 @@ header img {
     z-index: 9999;
 }
 
+.topElement-container span{
+    color: white;
+    /* font-size: ; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    left: 8.5rem;
+    font-size: 11px;
+}
+
+.guide-button{
+    width: 80%;
+    height: 20%;
+}
+
+.guide-button button{
+    width: 100%;
+}
+
+.leaderboardButton{
+    width: 80%;
+    height: 20%;
+}
+
+.leaderboardButton button{
+    width: 100%;
+}
