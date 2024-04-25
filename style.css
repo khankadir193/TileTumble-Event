@@ -163,6 +163,21 @@ header img {
     /* height: 5.5vh; */
 }
 
+.left-right-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-end; */
+    position: absolute;
+    width:100%;
+    height: 5vh;
+    top: 27rem;
+    z-index: 1000;
+}
+
+.left-right-container img{
+    width: 100%;
+}
+
 /* .jump img {
     width: 200px; 
     height: auto;
