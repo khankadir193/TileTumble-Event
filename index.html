@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tile Tumble</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <img src="./Header/bg.gif" alt="tileTubleHeader" />
+    </header>
+
+    <main class="main">
+        <div class="topElement-container">
+            <button id="guideButton">
+                <img src="./Guide/Guide-button.png" alt="myJumps">
+            </button>
+            <img src="./Header/myJumps.png" alt="myJumps">
+            <button id="leaderBoardButton">
+                <img src="./Leaderboard/leaderboard-button.png" alt="myJumps">
+            </button>
+        </div>
+
+        <div id="guidepopup" class="popup">
+            <!-- Popup content goes here -->
+            Guide Popup content
+            <button id="closeButton">Close</button>
+        </div>
+
+        <div id="leaderboardpopup" class="popup">
+            <!-- Popup content goes here -->
+            leaderboard Popup content
+            <button id="closeLeaderButton">Close</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+    
     
 </body>
 </html>

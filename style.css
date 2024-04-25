@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+
+}
+
+header {
+    position: absolute;
+}
+
+header img {
+    width: 100%;
+}
+
+/* .topElement-container{
+    width: 33%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 3.5rem;
+} */
+/* .topElement-container img {
+    width: 100%;
+} */
+
+.topElement-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 3rem;
+    height: 10vh;
+}
+
+.topElement-container button{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.topElement-container img {
+    /* max-width: 30%; */
+    width: 30%;
+    /* Adjust as needed */
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    z-index: 9999;
+}
+
