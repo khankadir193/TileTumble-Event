@@ -7,20 +7,22 @@ document.addEventListener("DOMContentLoaded", function(params) {
     const closeButton = document.getElementById("closeButton");
     const closeLeaderButton = document.getElementById("closeLeaderButton");
 
-    // Function to open the popup
+    // Function to open the guide popup
     function openPopup() {
         guidepopup.style.display = "block";
     }
-
+    
+    // Function to open the leader popup
     function openleaderboardPopup() {
         leaderpopup.style.display = "block";
     } 
 
-    // Function to close the popup
+    // Function to close the guide popup
     function closePopup() {
         guidepopup.style.display = "none";
     }
 
+    // Function to close the leaderboard popup
     function closeLeaderPopup() {
         leaderpopup.style.display = "none";
     }
