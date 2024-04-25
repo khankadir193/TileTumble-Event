@@ -116,3 +116,36 @@ header img {
     width: 15%;
     /* margin: 0 auto; */
 }
+
+.chances-manual-front-container{
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    bottom: 1;
+    height: 14vh;  */
+    /* z-index: -1000; */
+    position: absolute;
+    bottom: -3rem;
+    /* top: ; */
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.chances-manual-front-container img{
+    width: 28%;
+    height: 10vh;
+    /* margin: 0 auto; */
+}
+
+.frontPosition {
+    width: 28% !important;
+    height: 30vh !important;
+    /* margin: 0 auto; */
+}
+
+
