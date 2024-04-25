@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(params) {
     const guideButton = document.getElementById("guideButton");
     const leaderBoardBtn = document.getElementById("leaderBoardButton");
     const guidepopup = document.getElementById("guidepopup");
-    const leaderpopup = document.getElementById("guidepopup");
+    const leaderpopup = document.getElementById("leaderboardpopup");
     const closeButton = document.getElementById("closeButton");
     const closeLeaderButton = document.getElementById("closeLeaderButton");
 
@@ -22,16 +22,17 @@ document.addEventListener("DOMContentLoaded", function(params) {
     }
 
     function closeLeaderPopup() {
-        closeLeaderPopup.style.display = "none";
+        leaderpopup.style.display = "none";
     }
 
     // Event listener for the guidebtn click
     guideButton.addEventListener("click", openPopup);
 
-    // Event listener for the guidebtn click
+    // Event listener for the leaderboard button click
     leaderBoardBtn.addEventListener("click", openleaderboardPopup);
 
-    // Event listener for the close button click
+    // Event listener for the guide close button click
     closeButton.addEventListener("click", closePopup);
+    // Event listener for the leaderboard close button click
     closeLeaderButton.addEventListener("click", closeLeaderPopup);
 });
