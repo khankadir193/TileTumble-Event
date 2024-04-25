@@ -1,7 +1,7 @@
-body {
+*  {
     padding: 0;
     margin: 0;
-
+    overflow-x: hidden;
 }
 
 header {
@@ -28,8 +28,8 @@ header img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: 3rem;
+    position: absolute;
+    top: 2rem;
     height: 10vh;
 }
 
@@ -41,7 +41,7 @@ header img {
 
 .topElement-container img {
     /* max-width: 30%; */
-    width: 30%;
+    width: 50%;
     /* Adjust as needed */
 }
 
@@ -68,7 +68,7 @@ header img {
 
 .guide-button{
     width: 80%;
-    height: 20%;
+    /* height: 20%; */
 }
 
 .guide-button button{
@@ -77,9 +77,26 @@ header img {
 
 .leaderboardButton{
     width: 80%;
-    height: 20%;
+    /* height: 20%; */
 }
 
 .leaderboardButton button{
     width: 100%;
+}
+
+.reward-tile-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 5.5rem;
+    /* padding-inline: 2vw; */
+}
+
+.reward-tile-container img{
+    width: 15%;
+    /* position: relative; */
+    top: 7rem;
+    /* margin: 0 auto; */
 }
