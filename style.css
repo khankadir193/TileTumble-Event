@@ -229,7 +229,22 @@ header img {
     position: absolute;
     top: 5rem;
     left: -1rem;
+    gap: 3rem;
+    top: 10rem;
 }
+
+.event-gifts{
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    left: 4.5rem;
+    top: 3rem;
+}
+
+.event-gifts img{
+    width: 100%;
+}
+
 
 .first-display{
     width: 100%;
