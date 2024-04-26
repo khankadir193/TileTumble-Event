@@ -78,6 +78,19 @@ header img {
     width: 100%;
 }
 
+.closeBtn{
+    display: flex;
+    justify-content: center;
+    width: 22%;
+    align-items: center;
+    position: relative;
+    left: 27vw;
+    /* height: 15vh; */
+    background: none;
+    outline: none;
+    border: none;
+}
+
 .leaderboardButton{
     width: 80%;
     /* height: 20%; */
