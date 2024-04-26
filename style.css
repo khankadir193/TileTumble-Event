@@ -221,6 +221,24 @@ header img {
     top: 2rem;
 }
 
+.display{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    position: absolute;
+    top: 5rem;
+    left: -1rem;
+}
+
+.first-display{
+    width: 100%;
+}
+
+.second-display{
+    width: 100%;
+}
+
 /* .guide img{
     width: 20%;
     height: 4vh;
