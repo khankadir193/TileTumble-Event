@@ -252,6 +252,8 @@ header img {
 
 .second-display{
     width: 100%;
+    position: relative;
+    top: -3rem;
 }
 
 .treasure-warrior{
@@ -266,6 +268,19 @@ header img {
 }
 
 .treasure-warrior img{
+    width: 100%;
+}
+
+.game-party{
+    width: 40%;
+    position: relative;
+    display: flex;
+    gap: 3rem;
+    top: 1rem;
+    left: 3rem;
+}
+
+.game-party img{
     width: 100%;
 }
 
