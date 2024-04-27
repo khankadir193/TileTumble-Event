@@ -90,29 +90,42 @@ header img {
     outline: none;
     border: none;
     bottom: 28rem;
-    top: 7rem;
+    top: 9rem;
     z-index: 1;
 }
 
-.guide-banner{
-    width: 40%;
-    height: 10vh;
+.guide-character{
+    /* width: 70%; */
+    /* height: 10vh; */
     position: absolute;
-    bottom: 0;
+    /* bottom: 0; */
     display: flex;
+    gap: 1rem;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    top: 7rem;
+    /* left: 1rem; */
 }
 
-.guide-banner img{
+.guide-banner{
+    width: 70%;
+    height: 10vh;
+}
+
+.guide-character{
+    width: 90%;
+    height: 10vh;
+}
+
+/* .guide-banner img{
     width: 100%;
-}
+} */
 
-.guide-banner {
+/* .guide-banner { */
     /* display: flex; */
     /* justify-content: center; Align images horizontally */
     /* align-items: flex-start; Align images to the top */
-}
+/* } */
 
 /* .banner-images {
     display: flex;
