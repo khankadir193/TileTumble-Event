@@ -83,13 +83,15 @@ header img {
     justify-content: center;
     width: 15%;
     align-items: center;
-    position: relative;
-    left: 76vw;
-    /* height: 15vh; */
+    position: absolute;
+    left: 82vw;
+    height: 15vh;
     background: none;
     outline: none;
     border: none;
     bottom: 28rem;
+    top: 5rem;
+    z-index: 1;
 }
 
 .guide-banner{
@@ -281,6 +283,18 @@ header img {
 }
 
 .game-party img{
+    width: 100%;
+}
+
+.event-details{
+    /* width: 80%; */
+    /* height: 32vh; */
+    /* position: relative; */
+    /* bottom: 10rem; */
+    /* top: 4rem; */
+}
+
+.event-details img{
     width: 100%;
 }
 
