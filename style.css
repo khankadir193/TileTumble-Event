@@ -90,21 +90,45 @@ header img {
     outline: none;
     border: none;
     bottom: 28rem;
-    top: 5rem;
+    top: 7rem;
     z-index: 1;
 }
 
 .guide-banner{
+    width: 40%;
+    height: 10vh;
     position: absolute;
-    /* width: 100%; */
-    /* height: 10vh; */
-    position: absolute;
-    top: 3rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .guide-banner img{
     width: 100%;
 }
+
+.guide-banner {
+    /* display: flex; */
+    /* justify-content: center; Align images horizontally */
+    /* align-items: flex-start; Align images to the top */
+}
+
+/* .banner-images {
+    display: flex;
+    width: 30%;
+    height: 5vh;
+    position: absolute;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-images img{
+    width: 100%;
+} */
+
 
 .leaderboardButton{
     width: 80%;
@@ -220,7 +244,7 @@ header img {
     height: 100vh;
     margin: 0 auto;
     position: relative;
-    top: 2rem;
+    top: 6rem;
 }
 
 .display{
@@ -288,9 +312,9 @@ header img {
 
 .event-details{
     /* width: 80%; */
-    /* height: 32vh; */
-    /* position: relative; */
-    /* bottom: 10rem; */
+    height: 32vh;
+    position: relative;
+    bottom: 6rem;
     /* top: 4rem; */
 }
 
