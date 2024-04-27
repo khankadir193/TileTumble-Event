@@ -230,7 +230,7 @@ header img {
     top: 5rem;
     left: -1rem;
     gap: 3rem;
-    top: 10rem;
+    top: 3rem;
 }
 
 .event-gifts{
@@ -254,6 +254,21 @@ header img {
     width: 100%;
 }
 
+.treasure-warrior{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+    gap: 3rem;
+    /* margin: 0 auto; */
+}
+
+.treasure-warrior img{
+    width: 100%;
+}
+
 /* .guide img{
     width: 20%;
     height: 4vh;
@@ -264,4 +279,22 @@ header img {
 /* .jump img {
     width: 200px; 
     height: auto;
+} */
+/* .first-display {
+    position: relative;
+}
+
+.first-display img {
+    position: absolute;
+    top: 0;
+}
+
+.first-display .warrior {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.first-display .treasure-box {
+    right: 50%;
+    transform: translateX(50%);
 } */
