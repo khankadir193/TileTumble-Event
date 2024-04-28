@@ -94,6 +94,22 @@ header img {
     z-index: 1;
 }
 
+.closeBtnLeaderBoard{
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    align-items: center;
+    position: absolute;
+    left: 82vw;
+    height: 15vh;
+    background: none;
+    outline: none;
+    border: none;
+    bottom: 28rem;
+    top: 3rem;
+    z-index: 1;
+}
+
 .guide-character{
     /* width: 70%; */
     /* height: 10vh; */
@@ -142,6 +158,17 @@ header img {
     width: 100%;
 } */
 
+.leaderBoard{
+    background-image: url('./Leaderboard/leaderboard-bg1.png');
+    /* background: url(../img/backgrounds/infobg.png) center/100% 100% no-repeat; */
+    /* background-size: 100% 100%; */
+    background-size: contain;
+    width: 88vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    /* top: 6rem; */
+}
 
 .leaderboardButton{
     width: 80%;
