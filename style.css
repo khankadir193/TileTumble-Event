@@ -110,6 +110,17 @@ header img {
     z-index: 1;
 }
 
+.user-talent-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+    width: 70%;
+    margin: 0 auto;
+    gap: 3vw;
+}
+
 .guide-character{
     /* width: 70%; */
     /* height: 10vh; */
