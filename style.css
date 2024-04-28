@@ -121,6 +121,17 @@ header img {
     gap: 3vw;
 }
 
+.user-talent-btn button{
+    border: none;
+    background: none;
+    outline: none;
+
+}
+
+.user-talent-btn img{
+    width: 100%;
+}
+
 .guide-character{
     /* width: 70%; */
     /* height: 10vh; */
