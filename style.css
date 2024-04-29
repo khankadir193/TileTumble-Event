@@ -125,7 +125,6 @@ header img {
     border: none;
     background: none;
     outline: none;
-
 }
 
 .user-talent-btn img{
@@ -199,6 +198,22 @@ header img {
 
 .leaderboardButton button{
     width: 100%;
+}
+
+.userTab{
+    width: 40%;
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.talentTab{
+   width: 40%;
+   margin-top: 1rem; 
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 .reward-tile-container{

@@ -38,3 +38,25 @@ document.addEventListener("DOMContentLoaded", function(params) {
     // Event listener for the leaderboard close button click
     closeLeaderButton.addEventListener("click", closeLeaderPopup);
 });
+
+
+const tabs = document.querySelectorAll(".tab-btns > button");
+let content = document.querySelectorAll(".tab-content");
+// console.log(tabs);
+tabs.forEach((tab, i) => {
+  // console.log(tab);
+  tab.addEventListener("click", () => {
+    tabs.forEach((t) => {
+      t.classList.remove("active");
+    });
+
+    content.forEach((c, ci) => {
+      if (i === ci) {
+        c.classList.add("active");
+      } else {
+        c.classList.remove("active");
+      }
+    });
+    tab.classList.add("active");
+  });
+});
